@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+
+<html lang="gb,no">
+    <head>
+        <meta charset="utf-8">
+        <title>Stoppeklokke</title>
+        <meta name="Stoppeklokke" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="klokkeKnapper">
+            
+            <button id="startKnapp" class="startKlokke" onclick="startKlokke()">Start klokke</button>
+            
+            <button id="stoppKnapp" class="stoppKlokke" onclick="stoppKlokke()" disabled>Pause klokke</button>
+            
+            <button id="resetKnapp" class="resetKnapp" onclick="resetKlokke()">Reset klokke</button>
+
+            <button id="resetRunder" class="resetRunder" onclick="resetRunder()">Reset Runder</button>
+
+            <div id="klokke">0</div>
+
+        </div>
+
+        <div id="forrigeRunde" class="alleRunder">
+            <p>Alle rundetider</p>
+        </div>
+        <script src="index.js" async defer></script>
+    </body>
+
+</html>
